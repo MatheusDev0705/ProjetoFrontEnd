@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro - Sol e Rota</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="auth-container">
+
+<form id="formCadastro">
+
+<h2>Cadastro</h2>
+
+<label for="nomeCad">Nome:</label>
+<input type="text" id="nomeCad" required>
+
+<label for="emailCad">Email:</label>
+<input type="email" id="emailCad" required>
+
+<label for="cep">CEP:</label>
+<input type="text" id="cep" placeholder="Digite o CEP" required>
+
+<label for="rua">Rua:</label>
+<input type="text" id="rua" readonly>
+
+<label for="bairro">Bairro:</label>
+<input type="text" id="bairro" readonly>
+
+<label for="cidade">Cidade:</label>
+<input type="text" id="cidade" readonly>
+
+<label for="estado">Estado:</label>
+<input type="text" id="estado" readonly>
+
+<label for="senhaCad">Senha:</label>
+<input type="password" id="senhaCad" required>
+
+<button type="submit">Cadastrar</button>
+
+<p id="msgErro" class="erro"></p>
+<p id="msgSucesso" class="sucesso"></p>
+
+</form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
