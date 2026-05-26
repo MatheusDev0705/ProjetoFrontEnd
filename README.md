@@ -1,1 +1,1 @@
-Site de agência de Viagem com Javascript + HTML + CSS
+Avaliação na UC(Logica de Programação + Desenvolvimento WEB) Senai Curso Técnico em desenvolvimento de Sistemas
